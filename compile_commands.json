@@ -3,30 +3,40 @@
     "arguments": [
       "/usr/bin/x86_64-linux-gnu-gcc-10",
       "-I/home/dragos/all/c/proto-c/includes",
-      "-g",
+      "-O3",
+      "-DNDEBUG",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-Werror",
       "-std=gnu11",
       "-o",
-      "CMakeFiles/proto_c.dir/includes/proto.c.o",
+      "CMakeFiles/client.dir/src/client.c.o",
       "-c",
-      "/home/dragos/all/c/proto-c/includes/proto.c"
+      "/home/dragos/all/c/proto-c/src/client.c"
     ],
-    "directory": "/home/dragos/all/c/proto-c/cmake-build-debug",
-    "file": "/home/dragos/all/c/proto-c/includes/proto.c",
-    "output": "/home/dragos/all/c/proto-c/cmake-build-debug/CMakeFiles/proto_c.dir/includes/proto.c.o"
+    "directory": "/home/dragos/all/c/proto-c/release",
+    "file": "/home/dragos/all/c/proto-c/src/client.c",
+    "output": "/home/dragos/all/c/proto-c/release/CMakeFiles/client.dir/src/client.c.o"
   },
   {
     "arguments": [
       "/usr/bin/x86_64-linux-gnu-gcc-10",
       "-I/home/dragos/all/c/proto-c/includes",
-      "-g",
+      "-O3",
+      "-DNDEBUG",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-Werror",
       "-std=gnu11",
       "-o",
-      "CMakeFiles/proto_c.dir/src/main.c.o",
+      "CMakeFiles/server.dir/src/server.c.o",
       "-c",
-      "/home/dragos/all/c/proto-c/src/main.c"
+      "/home/dragos/all/c/proto-c/src/server.c"
     ],
-    "directory": "/home/dragos/all/c/proto-c/cmake-build-debug",
-    "file": "/home/dragos/all/c/proto-c/src/main.c",
-    "output": "/home/dragos/all/c/proto-c/cmake-build-debug/CMakeFiles/proto_c.dir/src/main.c.o"
+    "directory": "/home/dragos/all/c/proto-c/release",
+    "file": "/home/dragos/all/c/proto-c/src/server.c",
+    "output": "/home/dragos/all/c/proto-c/release/CMakeFiles/server.dir/src/server.c.o"
   }
 ]
