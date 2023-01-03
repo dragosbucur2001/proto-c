@@ -1,13 +1,11 @@
 [
   {
     "arguments": [
-      "/usr/bin/x86_64-linux-gnu-gcc-10",
+      "/usr/lib/llvm-11/bin/clang",
       "-I/home/dragos/all/c/proto-c/includes",
-      "-O3",
-      "-DNDEBUG",
+      "-g",
       "-Wall",
       "-Wextra",
-      "-pedantic",
       "-Werror",
       "-std=gnu11",
       "-o",
@@ -15,19 +13,17 @@
       "-c",
       "/home/dragos/all/c/proto-c/src/client.c"
     ],
-    "directory": "/home/dragos/all/c/proto-c/release",
+    "directory": "/home/dragos/all/c/proto-c/debug",
     "file": "/home/dragos/all/c/proto-c/src/client.c",
-    "output": "/home/dragos/all/c/proto-c/release/CMakeFiles/client.dir/src/client.c.o"
+    "output": "/home/dragos/all/c/proto-c/debug/CMakeFiles/client.dir/src/client.c.o"
   },
   {
     "arguments": [
-      "/usr/bin/x86_64-linux-gnu-gcc-10",
+      "/usr/lib/llvm-11/bin/clang",
       "-I/home/dragos/all/c/proto-c/includes",
-      "-O3",
-      "-DNDEBUG",
+      "-g",
       "-Wall",
       "-Wextra",
-      "-pedantic",
       "-Werror",
       "-std=gnu11",
       "-o",
@@ -35,8 +31,8 @@
       "-c",
       "/home/dragos/all/c/proto-c/src/server.c"
     ],
-    "directory": "/home/dragos/all/c/proto-c/release",
+    "directory": "/home/dragos/all/c/proto-c/debug",
     "file": "/home/dragos/all/c/proto-c/src/server.c",
-    "output": "/home/dragos/all/c/proto-c/release/CMakeFiles/server.dir/src/server.c.o"
+    "output": "/home/dragos/all/c/proto-c/debug/CMakeFiles/server.dir/src/server.c.o"
   }
 ]
