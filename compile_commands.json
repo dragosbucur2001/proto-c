@@ -1,0 +1,32 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/x86_64-linux-gnu-gcc-10",
+      "-I/home/dragos/all/c/proto-c/includes",
+      "-g",
+      "-std=gnu11",
+      "-o",
+      "CMakeFiles/proto_c.dir/includes/proto.c.o",
+      "-c",
+      "/home/dragos/all/c/proto-c/includes/proto.c"
+    ],
+    "directory": "/home/dragos/all/c/proto-c/cmake-build-debug",
+    "file": "/home/dragos/all/c/proto-c/includes/proto.c",
+    "output": "/home/dragos/all/c/proto-c/cmake-build-debug/CMakeFiles/proto_c.dir/includes/proto.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/x86_64-linux-gnu-gcc-10",
+      "-I/home/dragos/all/c/proto-c/includes",
+      "-g",
+      "-std=gnu11",
+      "-o",
+      "CMakeFiles/proto_c.dir/src/main.c.o",
+      "-c",
+      "/home/dragos/all/c/proto-c/src/main.c"
+    ],
+    "directory": "/home/dragos/all/c/proto-c/cmake-build-debug",
+    "file": "/home/dragos/all/c/proto-c/src/main.c",
+    "output": "/home/dragos/all/c/proto-c/cmake-build-debug/CMakeFiles/proto_c.dir/src/main.c.o"
+  }
+]
